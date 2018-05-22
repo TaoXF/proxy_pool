@@ -14,3 +14,6 @@ http://www.66ip.cn/zz.html
 也有免费的但是不怎么好用
 
 其他就改改自己的user-agent之类的就行了
+可以根据自己的需求修改\
+scheduler.py 里的 Scheduler类的 check_pool 方法 的测试值改变代理池的容量\
+建议不要太大, 代理的存活时间并不长久, 需求量大的话1000也就足够了
