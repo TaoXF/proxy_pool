@@ -2,7 +2,11 @@
 
 ### 使用依赖
 版本: python3\
-包: aiohttp  requests redis
+```
+pip install aiohttp
+pip install requests
+pip install redis
+```
 
 ### 使用之前配置
 需要配置settings 里的redis配置项\
